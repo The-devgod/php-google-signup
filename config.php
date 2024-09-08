@@ -3,9 +3,9 @@
 require_once 'vendor/autoload.php';
 
 // init configuration
-$clientID = '535282772676-kbsspflmqa12p88d4sgm7aln0ulh16kv.apps.googleusercontent.com';
-$clientSecret = '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';
-$redirectUri = 'http://localhost:8080/php-goggle-signup/welcome.php';
+$clientID = '';
+$clientSecret = '';
+$redirectUri = '';
 
 // create Client Request to access Google API
 $client = new Google_Client();
